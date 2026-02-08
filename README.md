@@ -1,4 +1,4 @@
-# README — Building Sender/Receiver Covert Channel for RISC-V using gem5 simulator and C910 RISC-V board
+# README: Building Sender/Receiver Covert Channel for RISC-V using gem5 simulator and C910 RISC-V board
 
 This project includes two programs:
 
