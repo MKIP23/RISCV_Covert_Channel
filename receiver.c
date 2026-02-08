@@ -1,8 +1,3 @@
-
-
-//////////////////////// v3
-
-
 // receiver.c
 // Compile:
 // riscv64-unknown-elf-gcc -O2 -march=rv64gc -pthread -o receiver receiver.c
