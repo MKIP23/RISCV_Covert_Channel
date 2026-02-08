@@ -1,6 +1,3 @@
-
-///////////////////////////////// V3
-
 #ifndef SHARED_H
 #define SHARED_H
 
