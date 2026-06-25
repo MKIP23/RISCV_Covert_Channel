@@ -91,10 +91,15 @@ scp sender receiver root@beaglev.local:/root/
 ``` -->
 
 pkill receiver 2>/dev/null
+
 pkill sender 2>/dev/null
+
 rm /dev/shm/prefetch_cbo_shm_v2_fix 2>/dev/null
+
 taskset -c 0 ./receiver &
+
 sleep 0.2
+
 taskset -c 1 ./sender (both same and different cores worked)
 
 
